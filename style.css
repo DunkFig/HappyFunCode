@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+canvas {
+  display: block;
+}
+
+#myContainer {
+  z-index: -2; 
+  position: absolute;
+}
+
+#talkingdiv {
+  z-index: 1; 
+  text-align: right;
+  position: absolute; 
+  font-size: 20px; 
+  color: rgb(255, 196, 0);
+}
+
+#div2{
+  z-index: 5;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+  border-radius: 30px;
+  /* margin: 50px; */
+  padding: 50px;
+  background-color: bisque;
+  font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+}
+
+#div3{
+margin-left: 40%;
+position: absolute;
+font-size: 12px;
+color: rgb(245, 203, 19);
+}
